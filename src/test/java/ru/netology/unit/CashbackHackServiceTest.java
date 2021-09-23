@@ -34,7 +34,7 @@ class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldReturnRemainIfAmountIs1001() {
+    public void shouldReturnRemainIfAmountIs1002() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 1002;
         int expected = 998;
