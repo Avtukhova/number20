@@ -9,15 +9,11 @@ repositories {
     mavenCentral()
 }
 
-testng
 dependencies {
-    testImplementation 'org.testng:testng:7.1.0'
-
+    testImplementation 'org.testng:testng:7.4.0'
 }
 
 test {
     useTestNG()
 }
-=======
 
-master
